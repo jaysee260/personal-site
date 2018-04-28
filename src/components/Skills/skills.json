@@ -1,0 +1,92 @@
+[
+  {
+    "name": "HTML",
+    "type": "front-end",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2000px-HTML5_logo_and_wordmark.svg.png",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+  },
+  {
+    "name": "CSS",
+    "type": "front-end",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/2000px-CSS3_logo_and_wordmark.svg.png",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  },
+  {
+    "name": "JavaScript",
+    "type": "front-end",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  },
+  {
+    "name": "React.js",
+    "type": "front-end",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
+    "link": "https://reactjs.org/"
+  },
+  {
+    "name": "Preact",
+    "type": "front-end",
+    "icon": "https://seeklogo.com/images/P/preact-logo-64E4BF9ABC-seeklogo.com.png",
+    "link": "https://preactjs.com/"
+  },
+  {
+    "name": "Bootstrap",
+    "type": "front-end",
+    "icon": "https://getbootstrap.com/assets/img/bootstrap-stack.png",
+    "link": "https://getbootstrap.com/"
+  },
+  {
+    "name": "Node.js",
+    "type": "back-end",
+    "icon": "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png",
+    "link": "https://nodejs.org/en/"
+  },
+  {
+    "name": "Express.js",
+    "type": "back-end",
+    "icon": "https://camo.githubusercontent.com/647e291a5fd52d50e01deb82f9392c462df148a6/687474703a2f2f617070732e6f63746f636f6e73756c74696e672e636f6d2f696d616765732f6578707265737349636f6e2e706e67",
+    "link": "https://expressjs.com/"
+  },
+  {
+    "name": "MongoDB",
+    "type": "back-end",
+    "icon": "https://cdn.worldvectorlogo.com/logos/mongodb.svg",
+    "link": "https://www.mongodb.com/"
+  },
+  {
+    "name": "mLab",
+    "type": "back-end",
+    "icon": "https://mlab.com/company/brand/img/downloads/mLab-logo-onlight.png",
+    "link": "https://mlab.com/"
+  },
+  {
+    "name": "npm",
+    "type": "dev-tools",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/2000px-Npm-logo.svg.png",
+    "link": "https://www.npmjs.com/"
+  },
+  {
+    "name": "Git",
+    "type": "dev-tools",
+    "icon": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+    "link": "https://git-scm.com/"
+  },
+  {
+    "name": "GitHub",
+    "type": "dev-tools",
+    "icon": "https://image.flaticon.com/icons/svg/25/25231.svg",
+    "link": "https://github.com/"
+  },
+  {
+    "name": "Webpack",
+    "type": "dev-tools",
+    "icon": "https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png",
+    "link": "https://webpack.js.org/"
+  },
+  {
+    "name": "Parcel",
+    "type": "dev-tools",
+    "icon": "https://parceljs.org/assets/parcel-og.png",
+    "link": "https://parceljs.org/"
+  }
+]

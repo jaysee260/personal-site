@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Eloquent JavaScript; A Modern Introduction to Programming",
+    "author": "Marjin Haverke",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/91ceCcI4d%2BL.jpg",
+    "site": "https://eloquentjavascript.net/",
+    "status": "reading"
+  },
+  {
+    "title": "You Don't Know JS: Up & Going",
+    "author": "Kyle Simpson",
+    "cover": "https://images-eu.ssl-images-amazon.com/images/I/41L18FvA5rL.jpg",
+    "site": "https://github.com/getify/You-Dont-Know-JS",
+    "status": "read"
+  },
+  {
+    "title": "You Don't Know JS: Scope & Closures",
+    "author": "Kyle Simpson",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/51SqAlfxJiL._SX331_BO1,204,203,200_.jpg",
+    "site": "https://github.com/getify/You-Dont-Know-JS",
+    "status": "read"
+  },
+  {
+    "title": "You Don't Know JS: this & Object Prototypes",
+    "author": "Kyle Simpson",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/41MZdroe73L._SX331_BO1,204,203,200_.jpg",
+    "site": "https://github.com/getify/You-Dont-Know-JS",
+    "status": "queue"
+  },
+  {
+    "title": "Computer Science Distilled",
+    "author": "Wladston Ferreira Fihlo",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/7189WFfER5L.jpg",
+    "site": "https://www.amazon.com/dp/B0731JG96F/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1",
+    "status": "reading"
+  },
+  {
+    "title": "Algorithms in C++, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching",
+    "author": "Robert Sedgewick",
+    "cover": "https://www.booktopia.com.au/http_coversbooktopiacomau/big/9780768684766/algorithms-in-c-parts-1-4.jpg",
+    "site": "https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882",
+    "status": "queue"
+  },
+  {
+    "title": "A Tour of C++",
+    "author": "Bjarne Stroustrup",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/51xVLzxX4vL._SX370_BO1,204,203,200_.jpg",
+    "site": "http://www.stroustrup.com/Tour.html",
+    "status": "queue"
+  },
+  {
+    "title": "How Linux Works: What Every Superuser Should Know",
+    "author": "Brian Ward",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/51LAvDkpwmL._SX375_BO1,204,203,200_.jpg",
+    "site": "https://nostarch.com/howlinuxworks2",
+    "status": "queue"
+  },
+  {
+    "title": "Code: The Hidden Language of Computer Hardware and Software",
+    "author": "Charles Petzold",
+    "cover": "https://images-na.ssl-images-amazon.com/images/I/310WZuKyEUL._SX334_BO1,204,203,200_.jpg",
+    "site": "https://www.amazon.com/dp/B00JDMPOK2/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1",
+    "status": "queue"
+  }
+]

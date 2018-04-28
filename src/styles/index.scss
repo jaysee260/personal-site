@@ -1,0 +1,98 @@
+$dflt-color: #222;
+$hover-color: #949393;
+$selected-color: #090;
+$nice-font: Arial;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #e4e4e4;
+}
+
+#main {
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  font-size: 20px;
+
+  a {
+    text-decoration: none;
+    color: #0049F2;
+  }
+}
+
+nav {
+  text-align: center;
+
+  p {
+    display: inline-block;
+    padding: 0 45px;
+
+    a {
+      text-decoration: none;
+      font-family: $nice-font;
+      color: $dflt-color;
+      cursor: pointer;
+      font-weight: 500;
+      letter-spacing: 1px;
+
+      &:hover {
+        color: $hover-color;
+      }
+    }
+  }
+}
+
+#about {
+  font-size: 15px;
+  display: flex;
+  section {
+    width: 35%;
+    text-align: center;
+    img {
+      border-radius: 50%;
+      width: 175px;
+    }
+  }
+  article {
+    width: 65%;
+    letter-spacing: .5px;
+  }
+}
+
+#skillset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  .skill {
+    max-width: 200px;
+    max-height: 150px;
+    margin: 15px;
+  }
+}
+
+#bookshelf {
+  ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    overflow-x: scroll;
+    white-space: nowrap;
+
+    li {
+      display: inline-block;
+      margin-right: 30px;
+    }
+  }
+
+  .book {
+    width: 175px;
+    height: 250px;
+    border: 2px solid #000;
+  }
+}
