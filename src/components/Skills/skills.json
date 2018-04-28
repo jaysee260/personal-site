@@ -78,6 +78,12 @@
     "link": "https://github.com/"
   },
   {
+    "name": "VS-Code",
+    "type": "dev-tools",
+    "icon": "https://user-images.githubusercontent.com/10379994/31985754-c56b8dba-b998-11e7-9705-a7f984433049.png",
+    "link": "https://code.visualstudio.com/"
+  },
+  {
     "name": "Webpack",
     "type": "dev-tools",
     "icon": "https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png",
