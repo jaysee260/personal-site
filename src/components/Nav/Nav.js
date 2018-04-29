@@ -1,8 +1,13 @@
 import { h } from 'preact';
 
-// Returns all lowercase tab title to set as href.
-// If title has any whitespace, replaces it with _
+/*
+  * @TODO
+  * Add Blog Tab
+*/
+
+// Returns tab title in lowercase to set as href.
 const setHref = v =>
+  // If value has any whitespace, replace it with _
   /\s/.test(v) ? v.split(' ').join('_').toLowerCase() :
   v.toLowerCase();
 
