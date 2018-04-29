@@ -1,4 +1,5 @@
 import { h } from 'preact';
+// import Markdown from 'preact-markdown';
 
 const About = () => (
   <div id='about'>
