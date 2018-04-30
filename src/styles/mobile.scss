@@ -1,0 +1,69 @@
+// Media Queries
+@media only screen and (max-width: 600px) {
+  body {
+    box-sizing: border-box;
+  }
+
+  #main {
+    width: 95%;
+    margin: 0 auto;
+    // margin: 0 auto;
+  }
+
+  header {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  nav {
+    margin: 0;
+    p {
+      padding: 0 10px;
+      font-size: 13px;
+    }
+  }
+
+  /*
+  * @TODO
+  * Make it so that if in portrait, text wraps around
+  * picture
+  */
+  #about {
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    section, article {
+      display: block;
+      width: 100%;
+    }
+
+    section {
+      img {
+        width: 100px;
+      }
+    }
+
+    article {
+      line-height: 1.45;
+      padding: 0 10px;
+      text-align: justify;
+    }
+  }
+
+  #skillset {
+    .skill {
+      max-width: 100px;
+      max-height: 55px;
+      margin: 20px;
+      padding: 0;
+    }
+  }
+
+  #bookshelf {
+    .book {
+      width: 85px;
+      height: 130px;
+      border: 2px solid #000;
+    }
+  }
+}

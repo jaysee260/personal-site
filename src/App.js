@@ -26,7 +26,7 @@ class App extends Component {
         <Nav tabs={tabs} />
 
         <Router>
-          <About  path='/about'   />
+          <About  default path='/about'   />
           <Skills path='/skills'  />
           <Books  path='/books'   />
         </Router>

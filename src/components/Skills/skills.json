@@ -17,12 +17,6 @@
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
     "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   },
-  // {
-  //   "name": "jQuery",
-  //   "type": "front-end",
-  //   "icon": "http://pluspng.com/img-png/jquery-logo-png-jquery-320.png",
-  //   "link": "https://brand.jquery.org/logos/"
-  // },
   {
     "name": "React.js",
     "type": "front-end",
@@ -38,7 +32,7 @@
   {
     "name": "Bootstrap",
     "type": "front-end",
-    "icon": "https://getbootstrap.com/assets/img/bootstrap-stack.png",
+    "icon": "https://cdn-images-1.medium.com/max/1024/1*9HanDsRU11ZMsgDGJwN96w.png",
     "link": "https://getbootstrap.com/"
   },
   {
