@@ -3,3 +3,4 @@ package-lock.json
 .cache
 dist
 src/components/About/data.json
+src/icons
