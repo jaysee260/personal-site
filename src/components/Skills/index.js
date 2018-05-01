@@ -1,20 +1,22 @@
 import { h } from 'preact';
 import data from './skills.json';
 import Skill from './Skill';
-import Category from './Category';
+import Set from './Set';
 
-// Render an icon for every skill
+// Render a section of icons for every skill type
 function renderSkills(data) {
-  let categories = [];
+  // determine skill types
+  let types = [];
   data.forEach(skill => {
-    if(!categories.includes(skill.type))
-      categories.push(skill.type);
+    if(!types.includes(skill.type))
+      types.push(skill.type);
   });
 
-  let sets = categories.map(type => {
-    // return skill whose type matches current type
+  // Render a skill set for each skill type
+  let sets = types.map(type => {
+    // return skills whose type matches current type
     let skills = data.filter(skill => skill.type === type);
-    return <Category type={type} skills={skills} />
+    return <Set type={type} skills={skills} />
   })
 
   return sets;
