@@ -58,6 +58,23 @@ nav {
       border-radius: 50%;
       width: 175px;
     }
+
+    #contact {
+      margin: 25px 0;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+
+      .icon {
+        font-size: 22px;
+        margin: 0 12px;
+        user-select: none;
+        color: #222;
+        background: steelblue;
+        padding: 5px 8px;
+        border-radius: 50%;
+      }
+    }
   }
   article {
     width: 65%;
