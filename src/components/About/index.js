@@ -1,12 +1,12 @@
 import { h } from 'preact';
-// import Markdown from 'preact-markdown';
 import Profile from './Profile';
 import Bio from './Bio';
+import about from './about.md'
 
 const About = () => (
   <div id='about'>
     <Profile />
-    <Bio />
+    <Bio about={about} />
   </div>
 );
 
