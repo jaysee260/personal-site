@@ -36,6 +36,12 @@
     "link": "https://getbootstrap.com/"
   },
   {
+    "name": "Bulma",
+    "type": "front-end",
+    "icon": "https://slack-imgs.com/?c=1&url=https%3A%2F%2Fbulma.io%2Fimages%2Fbulma-banner.png",
+    "link": "https://bulma.io/"
+  },
+  {
     "name": "Node.js",
     "type": "back-end",
     "icon": "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png",
