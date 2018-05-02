@@ -7,8 +7,8 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  // background-color: #e4e4e4;
+  // font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #main {
@@ -66,20 +66,26 @@ nav {
       align-content: center;
 
       .icon {
-        font-size: 22px;
+        font-size: 30px;
         margin: 0 12px;
         user-select: none;
         color: #222;
-        background: steelblue;
-        padding: 5px 8px;
-        border-radius: 50%;
+        padding: 5px 3px;
+      }
+
+      #twitter {
+        color: #1DA1F2;
+      }
+
+      #email {
+        color: grey;
       }
     }
   }
   article {
     width: 65%;
     letter-spacing: .5px;
-    line-height: 1.5;
+    line-height: 1.75;
     text-align: justify;
   }
 }

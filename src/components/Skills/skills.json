@@ -12,6 +12,12 @@
     "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
   },
   {
+    "name": "Sass",
+    "type": "front-end",
+    "icon": "https://cdn.worldvectorlogo.com/logos/sass-1.svg",
+    "link": "https://sass-lang.com/"
+  },
+  {
     "name": "JavaScript",
     "type": "front-end",
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
