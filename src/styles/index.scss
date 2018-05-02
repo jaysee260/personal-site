@@ -109,3 +109,14 @@ nav {
     border: 2px solid #000;
   }
 }
+
+footer {
+  text-align: center;
+  // background: #000;
+
+  padding: 10px;
+  position: fixed;
+  bottom: 0; 
+  width: inherit;
+  opacity: 0.5;
+}
