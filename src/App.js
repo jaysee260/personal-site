@@ -1,14 +1,14 @@
 // Dependencies
-import { h, Component } from 'preact';
-import Router from 'preact-router';
+import { h, Component }   from 'preact';
+import Router             from 'preact-router';
 
 // Import Main Components
-import Header from './components/Header'
-import Nav from './components/Nav/Nav';
-import tabs from './components/Nav/tabs.json';
-import About from './components/About';
-import Skills from './components/Skills';
-import Books from './components/Books';
+import Header     from './components/Header'
+import Nav        from './components/Nav/Nav';
+import tabs       from './components/Nav/tabs.json';
+import About      from './components/About';
+import Skills     from './components/Skills';
+import Books      from './components/Books';
 
 /* 
   * @TODO
