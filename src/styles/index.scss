@@ -1,14 +1,14 @@
 $dflt-color: #222;
 $hover-color: #949393;
 $selected-color: #090;
-$nice-font: Arial;
+$link-color: #0049F2;;
 
 body {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  // background-color: #e4e4e4;
+  // font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #main {
@@ -22,7 +22,7 @@ header {
 
   a {
     text-decoration: none;
-    color: #0049F2;
+    color: $link-color;
   }
 }
 
@@ -35,7 +35,6 @@ nav {
 
     a {
       text-decoration: none;
-      font-family: $nice-font;
       color: $dflt-color;
       cursor: pointer;
       font-weight: 500;
@@ -58,12 +57,42 @@ nav {
       border-radius: 50%;
       width: 175px;
     }
+
+    #contact {
+      margin: 25px 0;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+
+      .icon {
+        font-size: 30px;
+        margin: 0 12px;
+        user-select: none;
+        color: #222;
+        padding: 5px 3px;
+      }
+
+      #twitter {
+        color: #1DA1F2;
+      }
+
+      #email {
+        color: grey;
+      }
+    }
   }
   article {
     width: 65%;
     letter-spacing: .5px;
-    line-height: 1.5;
+    line-height: 1.75;
     text-align: justify;
+
+    a {
+      color: $link-color;
+      // &:visited {
+      //   color: $link-color;
+      // }
+    }
   }
 }
 

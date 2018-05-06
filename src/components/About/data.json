@@ -1,0 +1,19 @@
+{
+    "contact": [
+       {
+           "name": "github",
+            "href": "https://github.com/jsdev17",
+            "fa_class": "fab fa-github"
+        },
+        {
+            "name": "twitter",
+            "href": "https://twitter.com/jsdev17",
+            "fa_class": "fab fa-twitter"
+        },
+        {
+            "name": "email",
+            "href": "javascriptdeveloper17@gmail.com",
+            "fa_class": "far fa-envelope"
+        }
+    ]
+}
