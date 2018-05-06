@@ -6,9 +6,9 @@ function renderIcons(data) {
   let setHref = i => !(i.name === 'email') ? i.href : 'mailto:' + i.href;
 
   let icons = data.map(i =>  (
-      <a id={i.name} class='icon' href={setHref(i)} target='_blank'>
-          <i class={`${i.fa_class}`}></i>
-      </a>
+    <a id={i.name} class='icon' href={setHref(i)} target='_blank'>
+      <i class={`${i.fa_class}`}></i>
+    </a>
   ))
   return icons;
 }
