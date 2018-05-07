@@ -1,7 +1,7 @@
 $dflt-color: #222;
 $hover-color: #949393;
 $selected-color: #090;
-$nice-font: Arial;
+$link-color: #0049F2;;
 
 body {
   margin: 0;
@@ -22,7 +22,7 @@ header {
 
   a {
     text-decoration: none;
-    color: #0049F2;
+    color: $link-color;
   }
 }
 
@@ -35,7 +35,6 @@ nav {
 
     a {
       text-decoration: none;
-      font-family: $nice-font;
       color: $dflt-color;
       cursor: pointer;
       font-weight: 500;
@@ -87,6 +86,13 @@ nav {
     letter-spacing: .5px;
     line-height: 1.75;
     text-align: justify;
+
+    a {
+      color: $link-color;
+      // &:visited {
+      //   color: $link-color;
+      // }
+    }
   }
 }
 
@@ -131,4 +137,15 @@ nav {
     height: 200px;
     border: 2px solid #000;
   }
+}
+
+footer {
+  text-align: center;
+  // background: #000;
+
+  padding: 10px;
+  position: fixed;
+  bottom: 0; 
+  width: inherit;
+  opacity: 0.5;
 }

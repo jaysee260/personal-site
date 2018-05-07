@@ -20,10 +20,9 @@ function renderBooks(data) {
   return shelves;
 }
 
-const Books = () => (
+const Books = () => 
   <div id='bookshelf'>
     {renderBooks(data)}
   </div>
-);
 
 export default Books;
