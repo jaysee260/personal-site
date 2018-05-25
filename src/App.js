@@ -1,6 +1,7 @@
 // Dependencies
 import { h, Component }   from 'preact';
 import Router             from 'preact-router';
+import history            from './history';
 
 // Import Main Components
 import Header     from './components/Header'
@@ -24,7 +25,7 @@ class App extends Component {
         <Header />
         <Nav tabs={tabs} />
 
-        <Router>
+        <Router history={history}>
           <About  default path='/about'   />
           <Skills path='/skills'  />
           <Books  path='/books'   />
