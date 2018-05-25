@@ -1,5 +1,5 @@
 import { h } from 'preact';
-// import { Link } from 'preact-router/match'
+import { Link } from 'preact-router/match'
 
 /*
   * @TODO
@@ -14,13 +14,11 @@ const setHref = v =>
 
 const Nav = ({ tabs }) => 
   <nav>
-    {
-      tabs.map(t => (
+    {tabs.map(t => (
         <p>
-          <a href={ t.path }>{ t.title.toUpperCase() }</a>
+          <Link activeClassName='active' href={ t.path }>{ t.title.toUpperCase() }</Link>
         </p>
-      ))
-    }
+      ))}
   </nav>
 
 export default Nav;
